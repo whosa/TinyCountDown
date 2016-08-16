@@ -33,3 +33,5 @@ build/
 output/
 ipch/
 *.sdf
+*.opendb
+*.db

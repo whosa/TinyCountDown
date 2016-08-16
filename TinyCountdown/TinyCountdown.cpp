@@ -106,6 +106,7 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
    }
 
    SetTopMost(hWnd, TRUE);
+   SetWindowLongW(hWnd, GWL_EXSTYLE, WS_EX_TOOLWINDOW);
 
    ShowWindow(hWnd, nCmdShow);
    UpdateWindow(hWnd);
